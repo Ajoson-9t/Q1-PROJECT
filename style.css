@@ -1,0 +1,96 @@
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+        }
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+        }
+    .hero {
+    background: url(https://i.pinimg.com/736x/0e/1d/b5/0e1db5d46a6c6c4f6354e9173c7396b0.jpg) no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+        }
+    .hero h1 {
+    font-size: 3em;
+        }
+    .container {
+    width: 80%;
+    margin: 20px auto;
+        }
+    .bestsellers {
+    margin: 40px 0;
+        }
+    .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(25% - 20px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.2s;
+        }
+    .product-card:hover {
+    transform: scale(1.05);
+        }
+    .product-card img {
+     max-width: 100%;
+    border-radius: 5px;
+        }
+    .product-card h2 {
+    font-size: 1em;
+    margin: 10px 0;
+        }
+    .product-card p {
+     font-size: 1em;
+    color: #666;
+        }
+    .product-card button {
+     background-color: lightpink;
+     color: white;
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+    border-radius: 5px;
+        }
+    .product-card button:hover {
+    background-color: #218838;
+        }
+        .navbar {
+            background-color: lightpink;
+            padding: 10%;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .form {
+            display: flex;
+        }
+
+        li {
+            display: inline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: lightpink;
+            color: white;
+        }
+
+        #Bestseller
+    </style>
